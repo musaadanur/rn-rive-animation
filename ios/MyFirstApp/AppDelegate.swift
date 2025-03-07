@@ -11,6 +11,8 @@ class AppDelegate: RCTAppDelegate {
 
     // You can add your custom initial props in the dictionary below.
     // They will be passed down to the ViewController used by React Native.
+    self.window.backgroundColor = UIColor.black
+
     self.initialProps = [:]
 
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
@@ -18,6 +20,7 @@ class AppDelegate: RCTAppDelegate {
 
   override func sourceURL(for bridge: RCTBridge) -> URL? {
     self.bundleURL()
+    
   }
 
   override func bundleURL() -> URL? {
