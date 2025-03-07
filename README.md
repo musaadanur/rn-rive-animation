@@ -1,3 +1,9 @@
+## App Demo
+
+Check out the demo of the app in action!
+
+[Watch the demo here](https://youtu.be/TarQ3r0kGJY)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
